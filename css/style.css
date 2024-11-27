@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -12,7 +11,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: rgba(0, 0, 128, 0.8); /* Azul translúcido */
+    background-color: rgba(0, 0, 128, 0.8);
   }
   
   .logo {
@@ -39,7 +38,7 @@ body {
   .hero {
     max-width: 800px;
     margin: 50px auto;
-    background-color: rgba(0, 128, 128, 0.8); /* Turquesa translúcido */
+    background-color: rgba(0, 128, 128, 0.8);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
