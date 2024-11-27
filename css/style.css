@@ -1,72 +1,62 @@
+/* Estilos generales */
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background: url('.logo/OptAI.webp') no-repeat center center fixed;
-    background-size: cover;
-    color: #fff;
-  }
-  
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 128, 0.8);
-  }
-  
-  .logo {
-    height: 60px;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flex;
     margin: 0;
     padding: 0;
-  }
-  
-  .navbar li {
-    margin: 0 15px;
-  }
-  
-  .navbar a {
-    text-decoration: none;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #003580;
     color: white;
-    font-weight: bold;
-  }
-  
-  .hero {
-    max-width: 800px;
-    margin: 50px auto;
-    background-color: rgba(0, 128, 128, 0.8);
-    padding: 20px;
-    border-radius: 10px;
     text-align: center;
-    font-size: 1.2em;
-  }
-  
-  form {
+    padding: 20px 0;
+}
+header img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Menú de navegación */
+nav {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 400px;
-    margin: 20px auto;
-  }
-  
-  input, textarea, button {
-    padding: 10px;
-    font-size: 1em;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  button {
-    background-color: #007BFF;
+    justify-content: center;
+    background-color: #004ba0;
+    padding: 10px 0;
+}
+nav a {
     color: white;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Pie de página */
+footer {
+    background-color: #003580;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
